@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Lato&family=Poppins:wght@500;600&family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* header start  */
+
+header {
+    height: 480px;
+}
+
+.header-title {
+    color: #FF5E19;
+    font-size: 50px;
+}
+
+.header-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mask-image {
+    margin-top: 100px;
+    background-image: url('images/background-mask.png');
+}
+
+/* header start */
+
+/* main start */
+
+
+.card-background {
+    border: 1px solid gray;
+}
+
+.btn-select {
+    padding: 10px 100px;
+    border: none;
+    background-color: #FF5E19;
+}
+
+.btn-calculate {
+    padding: 8px 50px;
+    background-color: #FF5E19;
+    border: none;
+}
+
+#total {
+    color: #FF5E19;
+}
+
+.list-item-style {
+    border: 1px solid gray;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+/* main end */
+
+/* footer start */
