@@ -15,11 +15,6 @@ let playerButtonSix = document.getElementById('button-6');
 //ul id
 let playerListField = document.getElementById('player-list');
 
-function playerTotalCost() {
-
-}
-let playerListString = playerListField.childElementCount;
-let playerList = parseInt(playerListString);
 document.getElementById('per-player-calculate').addEventListener('click', function () {
 
     //li countElement convert
