@@ -16,16 +16,12 @@ let playerButtonSix = document.getElementById('button-6');
 let playerListField = document.getElementById('player-list');
 
 document.getElementById('per-player-calculate').addEventListener('click', function () {
-
     //li countElement convert
     let playerListString = playerListField.childElementCount;
     let playerList = parseInt(playerListString);
     let previusPrePlayerAmount = getCalculateInputTotalCost('per-player-field');
     //li element multiflication per player amount
     let newPlayerAmountTotal = playerList * previusPrePlayerAmount; setElementValueById('player-expenses', newPlayerAmountTotal);
-
-
-    //
 });
 
 document.getElementById('calculate-total').addEventListener('click', function () {
